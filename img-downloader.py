@@ -29,7 +29,7 @@ reset = cl.Style.RESET_ALL
 ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png", "gif", "bmp", "webp"]
 
 # Setup logging
-logging.basicConfig(filename="image_downloader.log", level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
+logging.basicConfig(filename="img-downloader.log", level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
 def print_banner():
     banner = """
