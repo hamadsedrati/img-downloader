@@ -21,7 +21,7 @@
 - 🛡 **Image Validation** before saving  
 - 👀 **Preview After Download**  
 - 🌐 **Proxy & Custom User-Agent** support  
-- 🗂 **Logging** to `image_downloader.log`  
+- 🗂 **Logging** to `img-downloader.log`  
 - 📊 **Progress Bar** for real-time tracking  
 
 ---
@@ -116,7 +116,7 @@ python img-downloader.py --gui
 4. **Validation** → Ensures downloaded file is a valid image
 5. **Conversion** → Optional format change via `Pillow`
 6. **Preview** → Opens image with default viewer
-7. **Logging** → Saves details & errors to `image_downloader.log`
+7. **Logging** → Saves details & errors to `img-downloader.log`
 
 ---
 
@@ -125,7 +125,7 @@ python img-downloader.py --gui
 All downloads and actions are recorded in:
 
 ```
-image_downloader.log
+img-downloader.log
 ```
 
 Includes:
