@@ -4,3 +4,6 @@ tqdm
 pillow
 pyperclip
 customtkinter
+
+If there's any problem with the app, do 'pip install <module>' in the terminal.
+If the problem persists, make an issue, or contact me directly and i'll look into it.
